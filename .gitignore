@@ -1,0 +1,75 @@
+# Environment variables (contains sensitive data)
+.env
+
+# Shell configuration files
+.bashrc
+.bash_history
+.bash_logout
+.profile
+
+# System and cache files
+.cache/
+.local/
+.config/
+.vscode-server/
+
+# System administration logs
+.sudo_as_admin_successful
+.wget-hsts
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker volumes data (optional - uncomment if you don't want to track data)
+# postgres_data/
+# qdrant_data/
+# pgadmin_data/
+# nginx_logs/
+# tailscale_data/
+# minio_data/
+
+# Logs
+*.log
+logs/
+
+# SSL certificates and keys
+*.pem
+*.key
+*.crt
+*.cert
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js (if you add any JS tools)
+node_modules/
+npm-debug.log*
+
+# Python (if you add any Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.gitconfig
